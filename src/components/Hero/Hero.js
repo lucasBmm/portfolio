@@ -19,7 +19,7 @@ const Hero = () => (
         Sou um desenvolvedor que busco amadurecer pessoal e profissionalmente
         utilizando a tecnologia ao meu favor.
       </SectionText>
-      <a href="/images/1.png" target="_blank">
+      <a href="/images/resume.pdf" target="_blank">
         <Button>Mais sobre mim</Button>
       </a>
     </LeftSection>
