@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiAws, DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiDigitalOcean, DiFirebase, DiReact } from 'react-icons/di';
 import {
   Section,
   SectionDivider,
@@ -18,10 +18,10 @@ const Technologies = () => (
   <Section id="tech">
     <SectionDivider />
     <br />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>Tecnologias</SectionTitle>
     <SectionText>
-      I've worked with a range of Technologies in the web development world.
-      From the Back-end to Front-end.
+      Já trabalhei com várias tecnologias de web development, <br />
+      Desde Front-End, como Back-End e Cloud.
     </SectionText>
     <List>
       <ListItem>
@@ -29,8 +29,8 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            React.Js
+            Experiência com <br />
+            React.Js e Next.Js
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -39,18 +39,18 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node.Js
+            Experiência com <br />
+            Node.Js, mongoDB e MySQL
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiAws size="3rem" />
+        <DiDigitalOcean size="3rem" />
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Cloud</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Figma
+            Experiência com <br />
+            DigitalOcean
           </ListParagraph>
         </ListContainer>
       </ListItem>

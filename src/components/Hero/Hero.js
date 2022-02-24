@@ -12,15 +12,16 @@ const Hero = () => (
   <Section row noppading>
     <LeftSection>
       <SectionTitle main center>
-        Welcome to <br />
-        My Personal Portifolio
+        Bem vindo <br />
+        Ao meu Portifolio
       </SectionTitle>
       <SectionText>
-        Lorem ipsum my text that I'll say something about me.
+        Sou um desenvolvedor que busco amadurecer pessoal e profissionalmente
+        utilizando a tecnologia ao meu favor.
       </SectionText>
-      <Button onClick={() => (window.location = 'https://google.com')}>
-        More about me
-      </Button>
+      <a href="/images/1.png" target="_blank">
+        <Button>Mais sobre mim</Button>
+      </a>
     </LeftSection>
   </Section>
 );
